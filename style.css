@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #10251b;
+    color: white;
+}
+
+.slide {
+    min-height: 100vh;
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.slide h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.slide p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    max-width: 800px;
+}
+
+.capa {
+    background: linear-gradient(135deg, #064e3b, #16a34a);
+}
+
+.autores {
+    margin-top: 40px;
+    font-size: 1rem !important;
+}
+
+.objetivos {
+    background-color: #14532d;
+}
+
+.slide ul {
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 2;
+    max-width: 750px;
+}
+
+.desenvolvimento {
+    background-color: #166534;
+}
+
+.destaque {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #bbf7d0;
+}
+
+.final {
+    background: linear-gradient(135deg, #052e16, #15803d);
+}
+
+.final h3 {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    color: #bbf7d0;
+}
+
+@media (max-width: 600px) {
+    .slide {
+        padding: 35px 8%;
+    }
+
+    .slide h1 {
+        font-size: 2.3rem;
+    }
+
+    .slide h2 {
+        font-size: 2rem;
+    }
+
+    .slide p,
+    .slide ul {
+        font-size: 1.05rem;
+    }
+}
